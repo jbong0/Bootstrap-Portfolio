@@ -1,0 +1,8 @@
+.jumbotron {
+	background-image: url("assets/imgs/bay.jpg");
+	background-size: cover;
+}
+
+h2 {
+	color: grey;
+}
