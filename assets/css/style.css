@@ -1,8 +1,77 @@
-.jumbotron {
-	background-image: url("assets/imgs/bay.jpg");
-	background-size: cover;
+.social-media{
+    width: 30px;
+    margin: 5px;
+    -webkit-filter: grayscale(1);
 }
 
-h2 {
-	color: grey;
+
+.social-media:hover {
+  transition: all 0.5s ease;
+  -webkit-filter: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+
+}
+
+.social-media:hover {
+  border-radius: 50%;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+
+}
+
+a{
+  color: #00A5BB;
+}
+
+
+.morph{
+  width: 250px;
+  height: 250px;
+  background:  #00A5BB;
+  margin: auto;
+
+}
+
+.morph {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+         
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+          
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #00A5BB;
+    text-align: center;
+    margin-top: 30px;
+}
+
+small{
+  margin-right: 30px;
+}
+
+body {
+    padding-bottom: 80px;
 }
