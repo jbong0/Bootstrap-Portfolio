@@ -80,3 +80,12 @@ label{
   color:  #00A5BB;
 
 }
+
+textarea{
+  height: 300px;
+}
+
+.oswald{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
