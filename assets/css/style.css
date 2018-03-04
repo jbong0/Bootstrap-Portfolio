@@ -64,7 +64,7 @@ a{
     width: 100%;
     background-color: #fff;
     color: #00A5BB;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -89,3 +89,58 @@ textarea{
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
 }
+
+.bg-secondary{
+  height: 300px;
+}
+
+
+#jbon{
+  float: left;
+}
+
+
+.grey{
+  background-color: grey;
+  width: 100%;
+  height: 100px;
+  color: white;
+  font-size: px;
+}
+
+a{
+  color: white;
+}
+
+.navi{
+  font-size: 10px;
+}
+
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+@media screen  and (max-width: 780px){
+  #footer{
+    text-align: center;
+  }
+  small{
+    display: none;
+  }
+}
+
+
+  
