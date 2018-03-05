@@ -124,6 +124,7 @@ a:hover {
 a:active {
     color: #00A5BB;
 }
+
 .grey{
   background-color: white;
   width: 100%;
@@ -133,24 +134,21 @@ a:active {
 }
 
 @media screen  and (max-width: 992px){
-  #footer{
-    text-align: center;
-  }
+
   small{
     display: none;
   }
   .grey{
     display: inline;
   }
-  .navbar{
+  .hide{
     display: none;
   }
   .footer{
     display: none;
   }
+  .jumbotron{
+    display: none;
+  }
 }
 
-}
-
-
-  
