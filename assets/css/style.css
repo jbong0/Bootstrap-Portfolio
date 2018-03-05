@@ -132,16 +132,22 @@ a:active {
   display: none;
 }
 
-@media screen  and (max-width: 780px){
+@media screen  and (max-width: 992px){
   #footer{
     text-align: center;
   }
   small{
     display: none;
   }
-
-.grey{
-  display: inline;
+  .grey{
+    display: inline;
+  }
+  .navbar{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
 }
 
 }
